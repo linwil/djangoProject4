@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def linwilson(request):
-    return HttpResponse("Hello 林启元")
+    return render(request, 'index.html',)
